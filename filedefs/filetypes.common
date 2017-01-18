@@ -1,0 +1,10 @@
+[build-menu]
+FT_00_LB=Compile
+FT_00_CM=gcc -c "%f"
+FT_00_WD=
+FT_01_LB=Build
+FT_01_CM=gcc -nostdlib -o "%e" "%f"
+FT_01_WD=
+EX_00_LB=_Execute
+EX_00_CM="./%e"
+EX_00_WD=

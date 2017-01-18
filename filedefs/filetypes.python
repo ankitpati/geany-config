@@ -1,0 +1,13 @@
+[build-menu]
+FT_00_LB=chmod +x
+FT_00_CM=chmod +x "%f"
+FT_00_WD=
+FT_01_LB=Compile
+FT_01_CM=python3.5 -m py_compile "%f"
+FT_01_WD=
+EX_00_LB=Execute
+EX_00_CM="./%f"
+EX_00_WD=
+EX_01_LB=
+EX_01_CM=
+EX_01_WD=
