@@ -1,7 +1,7 @@
 [build-menu]
-FT_00_LB=_Compile
-FT_00_CM=tidy "%f" >/dev/null
+FT_00_LB=Lint
+FT_00_CM=xmllint --noout "%f"
 FT_00_WD=
-FT_01_LB=Lint
-FT_01_CM=xmllint --noout "%f"
+FT_01_LB=Tidy
+FT_01_CM=tidy -mci --indent-spaces 4 -w 76 -asxhtml "%f"
 FT_01_WD=
